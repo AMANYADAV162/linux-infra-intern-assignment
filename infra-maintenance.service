@@ -1,0 +1,7 @@
+[Unit]
+Description=Infra Maintenance Service
+
+[Service]
+Type=oneshot
+ExecStart=/home/aman/linux-infra-intern-assignment/scripts/maintenance.sh
+

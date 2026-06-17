@@ -1,0 +1,12 @@
+[Unit]
+Description=Infra Demo Application
+After=network.target
+
+[Service]
+User=aman
+ExecStart=/usr/bin/python3 /opt/infra-demo/app.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
